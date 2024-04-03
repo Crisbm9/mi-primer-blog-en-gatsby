@@ -9,7 +9,7 @@ const IndexPage = () => {
 return (
   <Layout pageTitle='Página de inicio'>
     <p>Mi pagina de inicio</p>
-    <p>Aranjuez mola y mañana no llovera</p>
+    <p>Aranjuez ha cambiado de hora y hace frio</p>
     <StaticImage src='https://www.caracolviajero.com.es/blog/wp-content/uploads/2020/05/palacio-real-aranjuez.jpg' alt='exterior del palacio'/>
     <StaticImage src='../images/estanque-de-los-chinesos-de-aranjuez-2g0mtg9.jpg' alt=''/>
   </Layout>

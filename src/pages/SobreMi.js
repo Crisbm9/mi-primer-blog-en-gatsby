@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 const SobreMi = function(){
     return (
     <Layout pageTitle="Sobre Mi">
-    <p>Soy un tipo aburrido y me voy a casar</p>
+    <p>Soy un tipo aburrido y me voy a divorciar</p>
     </Layout>
     )
 }
