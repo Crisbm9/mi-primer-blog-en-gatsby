@@ -3,6 +3,8 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 import{container, heading, navLinks, navLinkItem, navLinkText
 } from "./layout.module.css"
 import { StaticImage } from 'gatsby-plugin-image'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import "../styles/main.css"
 
 
 const Layout = ({ pageTitle, children }) => {

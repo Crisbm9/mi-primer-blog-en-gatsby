@@ -24,8 +24,8 @@ const Blog= ({data})=>{
       <div>
       <p>{node.frontmatter.date}</p>
       <h2>{node.frontmatter.title}</h2>
-      <button>
-      <Link to={`/blog/${node.frontmatter.slug}`}>Leer más</Link>
+      <button className="btn btn-primary">
+      <Link to={`/blog/${node.frontmatter.slug}` } className='letraLink'>Leer más</Link>
       </button>
       <hr/>
       </div>
