@@ -9,15 +9,14 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Mi blog personal`,
+    title: `El blog de dani`,
     author: {
-      name: `Cristina Becerra`,
-      summary: `Desarrollo web`,
+      name: `Daniel`,
+      summary: `Algo`,
     },
-    description: `Blog personal`,
-    siteUrl: ``,
+    description: `Algo2.`,
     social: {
-      twitter: ``,
+      twitter: `kylemathews`,
     },
   },
   plugins: [
@@ -28,10 +27,6 @@ module.exports = {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
-    },
-    {
-    resolve: "gatsby-theme-blog",
-     options: {}
     },
     {
       resolve: `gatsby-source-filesystem`,

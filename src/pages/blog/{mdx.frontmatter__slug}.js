@@ -17,6 +17,7 @@ query ($id: String) {
     frontmatter {
       title
       date
+
     }
   }
 }
